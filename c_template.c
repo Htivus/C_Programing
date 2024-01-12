@@ -1,11 +1,13 @@
-/* Welcome to C programming Suvith */
+/* WELCOME TO C PROGRAMMING SUVITH */
 
 #include <stdio.h>
+#include <stdlib.h>
 
 
 int main() {
     
 
+    printf("Hello, World!\n");
 
     return 0;
 }
