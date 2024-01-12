@@ -6,44 +6,6 @@
 </head>
 <body>
   <h2>Git Repository Information</h2>
-
-  <table>
-    <tr>
-      <th>Action</th>
-      <th>Command</th>
-      <th>Result</th>
-    </tr>
-    <tr>
-      <td>Start SSH Agent</td>
-      <td>eval "$(ssh-agent -s)"</td>
-      <td>Agent pid 679</td>
-    </tr>
-    <tr>
-      <td>Add SSH Key to Agent</td>
-      <td>ssh-add ~/.ssh/suvith</td>
-      <td>Identity added: /home/suvith/.ssh/suvith (suvithkumar0000@gmail.com)</td>
-    </tr>
-    <tr>
-      <td>SSH Connection Test</td>
-      <td>ssh -T git@github.com</td>
-      <td>Hi Htivus! You've successfully authenticated, but GitHub does not provide shell access.</td>
-    </tr>
-    <tr>
-      <td>Check SSH Key List</td>
-      <td>ssh-add -l</td>
-      <td>4096 SHA256:XvS/kx490690n+4GVDAxlZ7kA60Hb6/kIdI+mO8zRrk suvithkumar0000@gmail.com (RSA)</td>
-    </tr>
-    <tr>
-      <td>Set Git Remote URL to SSH</td>
-      <td>git remote set-url origin git@github.com:Htivus/C_Programing.git</td>
-      <td>URL updated successfully</td>
-    </tr>
-    <tr>
-      <td>Git Pull</td>
-      <td>git pull</td>
-      <td>Pull successful without password prompt</td>
-    </tr>
-  </table>
 <h1>GDB Commands</h1>
 <h3>gcc -o Temp Temp.c -g </h3>
 <table>
@@ -225,6 +187,43 @@
     <td><code>git push -u origin master</code> (replace "master" with your branch name)</td>
   </tr>
 </table>
+ <table>
+    <tr>
+      <th>Action</th>
+      <th>Command</th>
+      <th>Result</th>
+    </tr>
+    <tr>
+      <td>Start SSH Agent</td>
+      <td>eval "$(ssh-agent -s)"</td>
+      <td>Agent pid 679</td>
+    </tr>
+    <tr>
+      <td>Add SSH Key to Agent</td>
+      <td>ssh-add ~/.ssh/suvith</td>
+      <td>Identity added: /home/suvith/.ssh/suvith (suvithkumar0000@gmail.com)</td>
+    </tr>
+    <tr>
+      <td>SSH Connection Test</td>
+      <td>ssh -T git@github.com</td>
+      <td>Hi Htivus! You've successfully authenticated, but GitHub does not provide shell access.</td>
+    </tr>
+    <tr>
+      <td>Check SSH Key List</td>
+      <td>ssh-add -l</td>
+      <td>4096 SHA256:XvS/kx490690n+4GVDAxlZ7kA60Hb6/kIdI+mO8zRrk suvithkumar0000@gmail.com (RSA)</td>
+    </tr>
+    <tr>
+      <td>Set Git Remote URL to SSH</td>
+      <td>git remote set-url origin git@github.com:Htivus/C_Programing.git</td>
+      <td>URL updated successfully</td>
+    </tr>
+    <tr>
+      <td>Git Pull</td>
+      <td>git pull</td>
+      <td>Pull successful without password prompt</td>
+    </tr>
+  </table>
 
 </body>
 </html>
