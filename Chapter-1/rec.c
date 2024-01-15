@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 void water ( int n )
 {
 	if ( n != 0 ){
