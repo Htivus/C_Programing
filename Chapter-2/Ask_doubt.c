@@ -24,7 +24,7 @@ int main()
 	
 	char s[100], t[20];
 
-	scanf("%s ",s);
+	scanf("%s",s);
 	printf("Second string \n");
 
 	scanf("%s\n",t);
