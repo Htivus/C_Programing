@@ -7,7 +7,8 @@
 int main()
 {
 	int c, i, nwhite, nother, ndigit[10];
-
+	
+	if (2> 1)printf("hi");
 	nwhite = nother = 0;
 
 	for (i = 0; i < 10; i++)
