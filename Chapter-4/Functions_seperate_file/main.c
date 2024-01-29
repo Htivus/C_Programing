@@ -38,6 +38,7 @@ int addline( char final[], char from[], int loc)
 		i++;
 		j++;
 	}
+	final[i++]='\n';
 
 	return i;
 }
