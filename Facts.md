@@ -47,6 +47,7 @@ Probably missed something.</p>
   - Modularity and organization are promoted by combining global entities with the extern keyword.<br>
   - The balance between data sharing and encapsulation should be carefully considered in program design.
 </p>
-
+<a href="https://www.geeksforgeeks.org/memory-layout-of-c-program/?ref=lbp">Program structure</a>
+<a href="https://www.geeksforgeeks.org/understanding-register-keyword/?ref=lbp">Registers </a>
 
 </body></html>
