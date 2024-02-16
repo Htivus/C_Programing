@@ -61,6 +61,22 @@
         <td>4</td>
         <td>Uninitialized</td>
     </tr>
+    <tr>
+        <td>static_var</td>
+        <td>Var</td>
+        <td>Global</td>
+        <td>0x00402000</td>
+        <td>4</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>global_var</td>
+        <td>Var</td>
+        <td>Global</td>
+        <td>0x00402004</td>
+        <td>4</td>
+        <td>20</td>
+    </tr>
 </table>
 
 <h2>Data Segment:</h2>
@@ -77,6 +93,9 @@
 <pre>
 <code>
 #include &lt;stdio.h&gt;
+
+int global_var = 20;   // Initialized global variable
+static int static_var = 10;   // Initialized static variable
 
 int main() {
     int a = 5;     // Initialized data stored in the .data segment
@@ -106,4 +125,3 @@ int main() {
 
 </body>
 </html>
-
