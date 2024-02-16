@@ -50,4 +50,6 @@ Probably missed something.</p>
 <a href="https://www.geeksforgeeks.org/memory-layout-of-c-program/?ref=lbp">Program structure</a>
 <a href="https://www.geeksforgeeks.org/understanding-register-keyword/?ref=lbp">Registers </a>
 
+<h4>SSH connection</h4>
+<p>Whenever a push is done to repo the public key encrypts the data and sennds it to the github server . Only the private ky with respect to that key can decode and process the data . Hence secure . same goes for pull .. here .pub is public folder inside .ssh </p>
 </body></html>
