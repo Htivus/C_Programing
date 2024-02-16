@@ -11,7 +11,8 @@ struct node {
 typedef struct node NODE;
 
 void display ( NODE* root);
-NODE* addroot ( NODE* root, char c);
+NODE* addroot_end ( NODE* root, char c);
+void delete_end ( NODE* root);
 
 int main()
 {
@@ -23,7 +24,7 @@ int main()
 
 	while((c=getchar()) != EOF)
 	{
-		root = addroot(root,c);
+		root = addroot_end(root,c);
 	}
 
 	printf("The list: \n");
@@ -45,7 +46,7 @@ void display( NODE* root)
 	printf("\n");
 }
 
-NODE* addroot( NODE* root, char c)
+NODE* addroot_end( NODE* root, char c)
 {
 	NODE* newnode = (NODE*)malloc(sizeof(NODE));
 	newnode->data = c;
@@ -63,4 +64,9 @@ NODE* addroot( NODE* root, char c)
 	temp->link = newnode;
 	
 	return root;
+}
+
+void delete_end( NODE* root)
+{
+	
 }
